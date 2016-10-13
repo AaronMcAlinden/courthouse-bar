@@ -1,9 +1,23 @@
-html  {overflow-x:hidden;}
+html  {
+  overflow-x:hidden;
+}
 
 /**-------SECTIONS-------**/
 
 body  {
   text-align: center;
+
+}
+
+body p  {
+  max-width: 80%;
+}
+
+body h1  {
+  max-width: 80%;
+}
+body h2 {
+  max-width: 80%;
 }
 
 nav {
@@ -62,7 +76,7 @@ header  {
 
 
 .pquote p {
-  width: 70%;
+  
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   color:#d1670c;
@@ -287,6 +301,10 @@ footer img  {
 
 @media  screen and (max-width: 573px) {
   
+  html  {
+  overflow-x:hidden;
+}
+  
   nav ul  {
     padding: 5px 0 10px 0;
   }
@@ -308,6 +326,20 @@ footer img  {
 
 }
   
+  h1  {
+    
+    font-size: 2em;
+  }
+  
+  p {
+    font-size: 1.75em;
+  }
+  
+  .pquote p {
+    
+    font-size: 1.75em;
+
+  }
   
   
   h2  {
