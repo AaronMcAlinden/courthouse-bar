@@ -1,0 +1,332 @@
+html  {overflow-x:hidden;}
+
+/**-------SECTIONS-------**/
+
+body  {
+  text-align: center;
+}
+
+nav {
+  width:100%;
+  background-color: #32323a;
+  margin: 0px;
+  margin-bottom: -1em;
+}
+
+nav img { 
+  width: 30%;
+  max-width: 300px;
+  min-width:100px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+nav ul  {
+  font-family: 'Open Sans', 'helvetica',  sans-serif;
+  list-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  text-align: center;
+ 
+}
+
+nav li {
+  display: inline-block;
+  color: white;
+  margin: 1em 1.5em;;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+
+
+header  {
+  width: 100%;
+  height:40em;
+  background: url(../images/front.jpg) no-repeat 100%;
+  background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+     
+}
+
+.pquote{
+  background-color: #f2eeef;
+  margin-top: -33px;
+}
+
+
+.pquote p {
+  width: 70%;
+  font-family: 'Josefin Slab', serif;
+  font-weight: 600;
+  color:#d1670c;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  font-size: 2em;
+}
+
+.maintext {
+  
+  background-color:#f2eeef;
+  padding: 4em 0;
+}
+
+.image_gallery  { 
+  margin-top: -30px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+  
+}
+
+.social { width 100%
+height: 100%;
+background-color: #32323a;}
+
+.contact  {
+  margin-top: ;
+  padding-top: 90px;
+  padding-bottom: 120px;
+  background-color: #f2eeef;
+}
+
+footer  {
+  text-align: center;
+  margin-top: -30px;
+  background-color: #32323a;
+  padding: 50px 0;
+  
+  
+}
+
+
+/**-------TYPOGRAPHY--------**/
+
+h1  {
+  color:#4e4e54;
+  font-size: 2.5em;
+  width: 400px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h2  {
+  font-weight:200;
+  color: #cc6633;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border: solid;
+  border-width: 2px;
+  padding: .5em 1em;
+  align-content: center;
+  
+}
+
+p {
+  font-size: 2em;
+  line-height: 1.5em;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'josefin slab', serif;;
+  font-weight: 600;
+  color:#d1670c;
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  
+}
+
+.maintext h2  {
+  text-transform: uppercase;
+}
+
+.image_gallery h3 {
+  margin-top: -2px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2em;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.image_gallery h3:hover {
+  transition: .5s;
+   -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+        transform: scale(1.5);
+}
+
+footer p  {
+  font-family: 'Open Sans', 'helvetica',  sans-serif;
+  color: white;
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
+footer h2{
+  color: white;
+}
+
+footer h2 a {
+  color: white;
+}
+
+footer h1{
+  color: white;
+}
+
+footer h2 a:hover {
+  color: #cc6633;
+}
+
+
+/**---------LINKS-------**/
+
+nav a {
+  color: white;
+}
+
+nav a:hover { color: #cc6633;
+  transition: .25s;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+
+h2 a{
+  
+  color:#cc6633;
+  
+}
+
+
+h2 a:hover { 
+  color:#4e4e54;; 
+}
+
+.conlink  {
+margin-right: .25em;
+margin-left: .25em;
+}
+
+
+/**--------IMAGES--------**/
+
+
+.social img {
+  width: 4em;
+  display: inline-block;
+  padding: 3em 2em;
+}
+
+.social img:hover {
+  
+   -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: .5s;
+}
+
+
+.image_gallery div {
+  
+  width: 50%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:-3px;
+  display:inline-block;
+
+}
+
+
+.gallerybar {
+  background-image: url(../images/gallerybar.jpg)
+}
+
+.bgardens {
+  background-image: url(../images/beergardens.jpg)
+}
+.library {
+  background-image: url(../images/library.jpg)
+}
+
+.courtroom {
+  background-image: url(../images/courtroom.jpg)
+}
+
+
+.image_gallery img  {
+  width:100%;
+}
+
+footer img  {
+    width: 4em;
+}
+
+
+/*-------MEDIA_QUERIES-------*/
+
+@media  screen and (max-width: 573px) {
+  
+  nav ul  {
+    padding: 5px 0 10px 0;
+  }
+  
+  nav li  {
+    display: block;
+  }
+  
+
+  
+  .image_gallery div {
+  
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:-2px;
+  display:inline-block;
+
+}
+  
+  
+  
+  h2  {
+  padding: .5em;
+}
+
+  
+  footer h2{
+    width: 80%;
+    
+  }
+  
+  .maintext h2{
+    width: 80%;
+  }
+  
+}
+
+
+
+
+
