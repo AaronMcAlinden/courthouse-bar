@@ -464,7 +464,7 @@ footer img  {
   .maintext h2{
     width: 80%;
   }
-  
+  .menu_buttons h2 {display: block;}
 }
 
 
