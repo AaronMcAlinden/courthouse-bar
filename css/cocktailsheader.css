@@ -1,0 +1,29 @@
+header  {
+  width: 100%;
+  height:40em;
+  background: url(../images/cocktails.jpg) no-repeat 100%;
+  background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+     
+}
+
+.gallerybar {
+  background-image: url(../images/cocktails2.jpg)
+}
+
+.bgardens {
+  background-image: url(../images/cocktails8.jpg)
+}
+.library {
+  background-image: url(../images/cocktails1.jpg)
+}
+
+.courtroom {
+  background-image: url(../images/cocktails3.jpg)
+}
+
+.social  {
+  margin-top:-30px;
+}
