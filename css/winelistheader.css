@@ -1,7 +1,7 @@
 header  {
   width: 100%;
   height:40em;
-  background: url(../images/beergardens.jpg) no-repeat 100%;
+  background: url(../images/winelist.jpg) no-repeat 100%;
   background-position: center;
     margin-left: auto;
     margin-right: auto;
@@ -14,12 +14,16 @@ header  {
 }
 
 .bgardens {
-  background-image: url(../images/beergardens1.jpg)
+  background-image: url(../images/winelist4.jpg)
 }
 .library {
-  background-image: url(../images/beergardens6.jpg)
+  background-image: url(../images/winelist7.jpg)
 }
 
 .courtroom {
-  background-image: url(../images/beergardens2.jpg)
+  background-image: url(../images/winelist3.jpg)
+}
+
+.social  {
+  margin-top:-30px;
 }

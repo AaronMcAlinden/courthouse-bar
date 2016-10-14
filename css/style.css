@@ -1,9 +1,23 @@
-html  {overflow-x:hidden;}
+html  {
+  overflow-x:hidden;
+}
 
 /**-------SECTIONS-------**/
 
 body  {
   text-align: center;
+
+}
+
+body p  {
+  max-width: 80%;
+}
+
+body h1  {
+  max-width: 80%;
+}
+body h2 {
+  max-width: 80%;
 }
 
 nav {
@@ -16,11 +30,12 @@ nav {
 nav img { 
   width: 30%;
   max-width: 300px;
-  min-width:100px;
+  min-width:200px;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 nav ul  {
@@ -62,7 +77,7 @@ header  {
 
 
 .pquote p {
-  width: 70%;
+  
   font-family: 'Josefin Slab', serif;
   font-weight: 600;
   color:#d1670c;
@@ -72,6 +87,14 @@ header  {
   font-size: 2em;
 }
 
+.topsec{
+  background-color: #f2eeef;;
+  margin: -28px auto 31px auto;
+  padding: 50px 0 100px;
+}
+
+
+
 .maintext {
   
   background-color:#f2eeef;
@@ -80,6 +103,7 @@ header  {
 
 .image_gallery  { 
   margin-top: -30px;
+  margin-bottom: -2px;
   margin-left:auto;
   margin-right:auto;
   width: 100%;
@@ -104,6 +128,13 @@ footer  {
   padding: 50px 0;
   
   
+}
+
+.menu_buttons{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right:auto;
+  padding-bottom: 50px;
 }
 
 
@@ -133,13 +164,30 @@ h2  {
   
 }
 
+.topsec .wines  {
+  margin-top:2em;
+}
+
+.topsec .wines:hover  {
+  color: #cc6633;
+  background-color: rgba(0,0,0,0.0);
+}
+
+
+.topsec h3  {
+  font-family: 'josefin slab', serif;
+  font-size: 2em;
+  color: #d1670c;
+  padding-bottom: 10px;
+}
+
 p {
   font-size: 2em;
   line-height: 1.5em;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'josefin slab', serif;;
+  font-family: 'josefin slab', serif;
   font-weight: 600;
   color:#d1670c;
   text-align: center;
@@ -148,6 +196,24 @@ p {
   
 }
 
+.topsec p {
+  margin:0 auto;
+  max-width: 90%;
+}
+
+
+
+.abv  {
+  padding-bottom: 15px;
+  color:#d1670c;
+  font-size:1.75em;
+}
+
+.drink {
+  font-size: 2em;
+  color: #4e4e54
+  
+}
 .maintext h2  {
   text-transform: uppercase;
 }
@@ -191,9 +257,17 @@ footer h1{
 }
 
 footer h2 a:hover {
-  color: #cc6633;
+  color: #4e4e54;
 }
 
+p small {
+  line-height: 10px;
+}
+
+small i {
+  color:#4e4e54;
+  font-weight: 100;
+}
 
 /**---------LINKS-------**/
 
@@ -218,14 +292,59 @@ h2 a{
 }
 
 
-h2 a:hover { 
-  color:#4e4e54;; 
+h2 :hover { 
+  color:#f2eeef;
+  
 }
 
 .conlink  {
 margin-right: .25em;
 margin-left: .25em;
+
 }
+
+.menu_buttons  {
+  padding-top: 10px;
+}
+
+.menu_buttons h2  {
+  margin-right: .25em;
+  margin-left: .25em;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+.menu_buttons h2:hover  {
+  background-color: rgba(204,102,0,1);
+}
+
+body h2:hover {
+  background-color: rgba(204,102,0,1);
+  transition: .25s;
+  
+}
+
+footer h2:hover {
+  background-color: #ffffff;
+  transition: .25s;
+}
+
+.menu_buttons a {
+  padding: 25px 15px;
+}
+
+.visiting {
+  color: #32323a;
+}
+
+.menu_buttons .visiting:hover {
+  color:#32323a;
+  background-color: rgba(0,0,0,0.0);
+}
+
+
+
+
 
 
 /**--------IMAGES--------**/
@@ -287,8 +406,14 @@ footer img  {
 
 @media  screen and (max-width: 573px) {
   
+  html  {
+  overflow-x:hidden;
+}
+  
+ 
   nav ul  {
     padding: 5px 0 10px 0;
+    display: block;
   }
   
   nav li  {
@@ -308,6 +433,22 @@ footer img  {
 
 }
   
+  h1  {
+    
+    font-size: 2em;
+    max-width: 80%;
+  }
+  
+  p {
+    font-size: 1.75em;
+    max-width:80%;
+  }
+  
+  .pquote p {
+    
+    font-size: 1.75em;
+
+  }
   
   
   h2  {
