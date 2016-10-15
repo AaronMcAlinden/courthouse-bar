@@ -470,6 +470,20 @@ footer img  {
   }
 }
 
+@media  screen and (max-width: 758px) {
+  .image_gallery div {
+  
+  width: 100%;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin:-2px;
+    display:inline-block;}
+  
+ 
+    
+}
+
 
 
 
