@@ -470,7 +470,12 @@ footer img  {
   }
 }
 
-@media  screen and (max-width: 758px) {
+
+
+
+
+
+@media  screen and (max-width: 768px) {
   .image_gallery div {
   
   width: 100%;
@@ -478,11 +483,40 @@ footer img  {
   background-repeat: no-repeat;
   background-size: cover;
   margin:-2px;
-    display:inline-block;}
+  display:inline-block;}
+  
+  
+  nav ul  {
+    padding: 5px 0 10px 0;
+    display: block;
+  }
+  
+  nav li  {
+    display: block;
+
+  }
+ 
+  }
+
+@media  screen and (max-width: 920px) {
+
+  nav ul  {
+    padding: 5px 0 10px 0;
+    display: block;
+  }
+  
+  nav li  {
+    display: block;
+
+  }
+  
   
  
-    
-}
+  }
+
+
+
+
 
 
 
