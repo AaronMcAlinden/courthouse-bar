@@ -137,6 +137,17 @@ footer  {
   padding-bottom: 50px;
 }
 
+.xmas{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+
+.xmas_price
+{
+  padding-top: 20px;
+}
+
 
 /**-------TYPOGRAPHY--------**/
 
@@ -214,6 +225,7 @@ p {
   color: #4e4e54
   
 }
+
 .maintext h2  {
   text-transform: uppercase;
 }
@@ -260,6 +272,8 @@ footer h2 a:hover {
   color: #4e4e54;
 }
 
+
+
 p small {
   line-height: 10px;
 }
@@ -292,11 +306,6 @@ h2 a{
 }
 
 
-h2 :hover { 
-  color:#f2eeef;
-  
-}
-
 .conlink  {
 margin-right: .25em;
 margin-left: .25em;
@@ -321,11 +330,16 @@ margin-left: .25em;
 body h2:hover {
   background-color: rgba(204,102,0,1);
   transition: .25s;
+  color: #f2eeef;
+  border-color: #cc6633;
+  
   
 }
 
 footer h2:hover {
   background-color: #ffffff;
+  border-color: #ffffff;
+  color:#32323a;
   transition: .25s;
 }
 
