@@ -1,7 +1,7 @@
 header  {
   width: 100%;
   height:40em;
-  background: url(../images/food.jpg) no-repeat 100%;
+  background: url(../images/night11.jpg) no-repeat 100%;
   background-position: center;
     margin-left: auto;
     margin-right: auto;
@@ -10,14 +10,14 @@ header  {
 }
 
 .gallerybar {
-  background-image: url(../images/food3.jpg)
+  background-image: url(../images/cocktails8.jpg)
 }
 
 .bgardens {
-  background-image: url(../images/library9.jpg)
+  background-image: url(../images/night3.jpg)
 }
 .library {
-  background-image: url(../images/food4.jpg)
+  background-image: url(../images/night17.jpg)
 }
 
 .courtroom {
