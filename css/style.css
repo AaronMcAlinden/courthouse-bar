@@ -601,7 +601,7 @@ iframe	{
 }
 
 
-	@media only screen and (max-width : 400px) {
+	/* @media only screen and (max-width : 400px) {
 iframe	{
 	
 display: none;
@@ -623,6 +623,8 @@ display: none;
 		
 		
 }
+
+*/
 
 
 
