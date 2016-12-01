@@ -21,7 +21,11 @@ body h2 {
 }
 
 
-
+.cap	{
+	
+	font-size: 1.75em;
+	padding: 1em 0 2em 0;
+}
 
 nav {
   width:100%;
@@ -29,6 +33,29 @@ nav {
   margin: 0px;
   margin-bottom: -1em;
 	
+}
+
+
+
+hr	{
+	width: 50%;
+	margin-top: 2em;
+	color: #32323a;
+	
+
+}
+
+
+small	p {
+	color: #32323a;
+	font-size: 1.5em;
+	padding: 1em 0 0 0;
+	
+}
+
+
+#christmas{
+	margin-top: 1.5em;
 }
 
 nav img { 
